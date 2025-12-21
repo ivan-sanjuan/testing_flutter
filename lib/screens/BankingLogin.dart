@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import ''
+import 'package:testing_flutter/models/banking.dart'
 
 class BankingLogin extends StatefulWidget {
-  BankingLogin({super.key});
+  const BankingLogin({super.key});
 
   @override
   State<BankingLogin> createState() => _BankingLoginState()
 }
 
 class _BankingLoginState extends BankingLogin{
-  
+  BankingAccount 
 }

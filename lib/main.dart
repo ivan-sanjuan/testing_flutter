@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:testing_flutter/screens/BankingLogin.dart';
+import 'package:testing_flutter/screens/bankingLogin.dart';
 
 void main() {
   runApp(MaterialApp(home: BankingApp(), debugShowCheckedModeBanner: false));

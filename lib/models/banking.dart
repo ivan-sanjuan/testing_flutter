@@ -1,6 +1,6 @@
-import 'package:testing_flutter/models/transaction.dart';
+import 'package:flutter/material.dart';
 
 class BankingAccount {
   final String pin = '123456';
-  List<Transaction> transactions = [];
+  List<String, dynamic>map
 }
