@@ -1,11 +1,11 @@
+import 'package:flutter/material.dart';
 import 'package:testing_flutter/constants/transaction_type.dart';
-import 'package:flutter/foundation.dart';
 
 @immutable
 class Transaction {
+  final TransactionType type;
   final double amount;
-  final TransactionType transactionType;
   final DateTime date;
 
-  const Transaction(this.amount, this.transactionType, this.date);
+  const Transaction(this.type, this.amount, this.date);
 }
